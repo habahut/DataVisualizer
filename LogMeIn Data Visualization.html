@@ -6,8 +6,6 @@
     google.load('visualization', '1', {packages: ['table', 'corechart', 'controls'], 'callback': 'initDataTable'});
 	google.setOnLoadCallback(initPage);
 	
-	
-	
     //// the logging data itself
     var logging_data = [
        ['timestamp','BlocksSent average','BlocksSent count','BlocksSent deviation','BlocksSent max','BlocksSent min','BlocksSent sum','FrameCount','GatewayMessagesReceived average','GatewayMessagesReceived count','GatewayMessagesReceived deviation','GatewayMessagesReceived max','GatewayMessagesReceived min','GatewayMessagesReceived sum','GatewayMessagesSent average','GatewayMessagesSent count','GatewayMessagesSent deviation','GatewayMessagesSent max','GatewayMessagesSent min','GatewayMessagesSent sum','JPEGBlocksSent average','JPEGBlocksSent count','JPEGBlocksSent deviation','JPEGBlocksSent max','JPEGBlocksSent min','JPEGBlocksSent sum','MaxIntervalUntilBlockIsReadyToTransfer d','MaxIntervalUntilBlockIsReadyToTransfer v','PNGBlocksSent average','PNGBlocksSent count','PNGBlocksSent deviation','PNGBlocksSent max','PNGBlocksSent min','PNGBlocksSent sum','PlatformStatistics CPUUsage','PlatformStatistics ScreenStatistics DurationOfDiffpickerOperation','PlatformStatistics ScreenStatistics DurationOfGrabsForDiffpicker','PlatformStatistics ScreenStatistics NumberOfDiffpickerInvocation','PlatformStatistics ScreenStatistics NumberOfGrabsForDiffpicker','PlatformStatistics ScreenStatistics NumberOfNoDiffDiffpickerInvocation','PlatformStatistics ScreenStatistics NumberOfPixelsDiffPickerFound','PlatformStatistics ScreenStatistics NumberOfPixelsGrabbedForDiffpicker','PlatformStatistics ScreenStatistics NumberOfPixelsInRawUpdates','PlatformStatistics ScreenStatistics NumberOfRawUpdates','PlatformStatistics ScreenStatistics NumberOfUnsuccessfulGrabsForDiffpicker','PlatformStatistics ScreenStatistics TotalDurationOfGrabs','PlatformStatistics ScreenStatistics TotalNumberOfGrabs','PlatformStatistics ScreenStatistics TotalNumberOfPixelsGrabbed','PlatformStatistics ScreenStatistics TotalNumberOfUnsuccessfulGrabs'],
@@ -1151,7 +1149,7 @@
 <input id="addChart" type="button" value="Add Chart" onclick="addChart()">
 <input id="saveAllViews" type="button" value="Save All Charts" onclick="saveAllCharts()">
 <input id="putAllViewedFieldsHere" type="text" value="" style="display: none; width: 700px;">
-<!-- NOTE! the python program will crash if you do not have "++END_LINE++" (no underscore) as the very last thing at the end of the htmltemplate.txt file! --><div style="position: absolute; display: none;"><div style="background-color: infobackground; padding: 1px; border: 1px solid infotext; font-size: 15px; margin: 15px; font-family: Arial; background-position: initial initial; background-repeat: initial initial;">GatewayMessagesReceived count</div></div>
+<!-- NOTE! the python program will crash if you do not have "++END_LINE++" (no underscore) as the very last thing at the end of the htmltemplate.txt file! -->
 
 <br><br>
 Made for LogMeIn's Join.Me team by Trevor Haba in summer of 2013. To contact Trevor email habahut@gmail.com
