@@ -10,5 +10,8 @@ results with each other by sending the address of the log file in question.
 The current page only displays test data, but it shows off the capabilities of the program to explore
 and compare all the metrics available. To run it, simply open the .html page in Chrome or Firefox.
 
+-- IMPORTANT: If the spacing is messed up or it doesn't look right, please download the file and run 
+it from your computer. Running it through any in-browser plug-ins causes the page to malfunction. --
+
 Created by Trevor Haba, summer 2013. Email: habahut@gmail.com
 
